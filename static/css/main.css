@@ -1,4 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background-color: dodgerblue;
     color: #333;
+}
+
+h1{
+    color: #fff;
+    font-size: 34px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: lightgreen;
+    height: 60px;
+    padding: 1;
 }
