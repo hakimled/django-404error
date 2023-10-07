@@ -6,4 +6,5 @@ app_name= 'error404'
 
 urlpatterns = [
     path('', views.index, name='index'),
+    path('learn' , views.learn , name='learn'),
 ]

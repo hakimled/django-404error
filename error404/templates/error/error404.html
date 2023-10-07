@@ -16,7 +16,7 @@
             font-size: 25px;
         }
         .error{
-            diplay:flex;
+            display:flex;
             justify-content:center;
             align-items:center;
         }
@@ -24,6 +24,7 @@
 </head>
 <body>
     <h3>Page not found</h3>
+    <a href="{% url 'error404:index' %}">home</a>
     
 </body>
 </html>
